@@ -20,24 +20,24 @@
     </header>
     <main>
       <section>
-        <div class="carousel slide">
+        <div id="carouselExample" class="carousel slide" >
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="https://picsum.photos/700/300" alt="image" />
+              <img src="https://picsum.photos/700/300" alt="image"  class="d-block"/>
             </div>
             <div class="carousel-item">
               <img
-                src="https://source.unsplash.com/random/200x300"
-                alt="image"
+                src="https://source.unsplash.com/random/700x300"
+                alt="image" class="d-block"
               />
             </div>
             <div class="carousel-item">
-              <img src="https://picsum.photos/200/300" alt="image" />
+              <img src="https://picsum.photos/701/301" alt="image"  class="d-block"/>
             </div>
             <button
               class="carousel-control-prev"
               type="button"
-              data-bs-target="#carouselExampleControls"
+              data-bs-target="#carouselExample"
               data-bs-slide="prev"
             >
               <span
@@ -49,7 +49,7 @@
             <button
               class="carousel-control-next"
               type="button"
-              data-bs-target="#carouselExampleControls"
+              data-bs-target="#carouselExample"
               data-bs-slide="next"
             >
               <span
@@ -130,6 +130,8 @@
       </footer>
     </main>
   </body>
+  <script
+    src="./carousel.js"></script>
   <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
